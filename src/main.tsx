@@ -10,10 +10,11 @@ import Expand from "./Expand";
 import Values from "./Values";
 import Brands from "./Brands";
 import Team from "./Team";
+import Newsletter from "./Newsletter";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <div className="min-h-[5000px]">
+    <div className="min-h-[10000px]">
       <Navbar />
       <Hero />
       <Grid />
@@ -21,6 +22,7 @@ createRoot(document.getElementById("root")!).render(
       <Values />
       <Brands />
       <Team />
+      <Newsletter />
     </div>
   </StrictMode>
 );
