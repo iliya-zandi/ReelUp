@@ -8,6 +8,7 @@ import Hero from "./Hero";
 import Grid from "./Grid";
 import Expand from "./Expand";
 import Values from "./Values";
+import Brands from "./Brands";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -17,6 +18,7 @@ createRoot(document.getElementById("root")!).render(
       <Grid />
       <Expand />
       <Values />
+      <Brands />
     </div>
   </StrictMode>
 );

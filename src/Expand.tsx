@@ -14,7 +14,7 @@ const Expand = () => {
             alt="Expand Section"
             className="w-full h-96 object-cover rounded-4xl"
           />
-          <div className="absolute md:top-0 md:right-0 md:-mr-6 md:-mt-6 bg-white shadow-2xl rounded-4xl p-6 text-center w-1/3 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 md:translate-x-6 md:-translate-y-6 md:w-1/2">
+          <div className="absolute md:top-0 md:right-0 md:-mr-6 md:-mt-6 bg-white shadow-2xl rounded-4xl p-6 text-center md:text-left w-1/3 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 md:translate-x-6 md:-translate-y-6 md:w-1/2">
             <span className="uppercase text-xs tracking-widest text-zinc-500">
               - up to
             </span>
