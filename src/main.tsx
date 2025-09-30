@@ -7,6 +7,7 @@ import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Grid from "./Grid";
 import Expand from "./Expand";
+import Values from "./Values";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -15,6 +16,7 @@ createRoot(document.getElementById("root")!).render(
       <Hero />
       <Grid />
       <Expand />
+      <Values />
     </div>
   </StrictMode>
 );

@@ -29,7 +29,7 @@ const Expand = () => {
         {/* متن + دکمه */}
         <div className="flex flex-col items-center md:items-start justify-center text-center md:text-left">
           <Overline>shoppable projects</Overline>
-          <h2 className="text-5xl mt-6 md:text-6xl font-bold text-zinc-900">
+          <h2 className="text-5xl mt-6 md:text-5xl font-bold text-zinc-900">
             Expanding the <br />
             Boundaries
           </h2>
