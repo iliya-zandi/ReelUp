@@ -9,6 +9,7 @@ import Grid from "./Grid";
 import Expand from "./Expand";
 import Values from "./Values";
 import Brands from "./Brands";
+import Team from "./Team";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -19,6 +20,7 @@ createRoot(document.getElementById("root")!).render(
       <Expand />
       <Values />
       <Brands />
+      <Team />
     </div>
   </StrictMode>
 );
