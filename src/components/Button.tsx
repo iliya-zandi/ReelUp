@@ -36,7 +36,7 @@ const Button: React.FC<ButtonProps> = ({
    * Constructs the CSS classes for the button.
    * Includes base styles, dark mode styles (if dark=true), and any additional className.
    */
-  const buttonClass = `relative rounded-full md:px-12 px-8 md:py-4 py-2 border border-zinc-900/40 font-medium text-sm ${
+  const buttonClass = `relative rounded-full px-5 py-1.5 border border-zinc-900/40 font-medium text-sm ${
     dark ? "bg-[#131313] text-zinc-100" : ""
   } ${className}`;
 
