@@ -1,0 +1,41 @@
+/**
+ * Google Fonts Import
+ * Imports the Roboto font from Google Fonts with multiple weights and styles.
+ */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+/**
+ * Body Styling
+ * Sets the default font and text properties for the entire document.
+ */
+body {
+  /**
+   * Font Family
+   * Uses the imported Roboto font with a fallback to sans-serif.
+   */
+  font-family: "Roboto", sans-serif;
+
+  /**
+   * Font Optical Sizing
+   * Automatically adjusts the font size based on the optical size parameter.
+   */
+  font-optical-sizing: auto;
+
+  /**
+   * Font Weight
+   * Sets the default font weight to 400 (normal).
+   */
+  font-weight: 400;
+
+  /**
+   * Font Style
+   * Sets the default font style to normal (not italic).
+   */
+  font-style: normal;
+
+  /**
+   * Font Variation Settings
+   * Adjusts the width axis of the font to 100 (default width).
+   */
+  font-variation-settings: "wdth" 100;
+}

@@ -1,0 +1,11 @@
+/**
+ * Local Fonts Import
+ * Imports custom fonts defined in the local "fonts.css" file.
+ */
+@import "./fonts.css";
+
+/**
+ * Tailwind CSS Import
+ * Imports Tailwind CSS utilities from the local "tailwind.css" file.
+ */
+@import "./tailwind.css";

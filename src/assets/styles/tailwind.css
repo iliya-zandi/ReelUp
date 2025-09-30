@@ -1,0 +1,16 @@
+/**
+ * Tailwind CSS Import
+ * Imports Tailwind's core styles and utilities.
+ */
+@import "tailwindcss";
+
+/**
+ * Base Layer
+ * Defines base styles using Tailwind's layer system.
+ * Currently empty, can be used to add global default styles.
+ */
+@layer base {
+  button {
+    @apply cursor-pointer;
+  }
+}
